@@ -88,11 +88,6 @@
     object-fit: contain;
 }
 
-/* SECTION 2 */
-
-/* =========================
-   SECTION 2
-   ========================= */
 
 /* =========================
    SECTION 2
@@ -106,10 +101,6 @@
 }
 
 
-/* =========================
-   LEFT SIDE — IMAGE
-   ========================= */
-
 .section2-image {
     width: 50%;
     height: 100%;
@@ -120,7 +111,6 @@
 }
 
 
-/* Full control over image */
 
 .section2-image img {
     position: absolute;
@@ -130,21 +120,16 @@
 
     object-fit: contain;
 
-    /* You can manually control the image position */
     object-position: center center;
 
-    /* You can zoom the image */
     transform: scale(1);
 
-    /* You can move the image */
+   
     left: 0;
     top: 0;
 }
 
 
-/* =========================
-   RIGHT SIDE — TEXT
-   ========================= */
 
 .section2-text {
     width: 50%;
@@ -168,7 +153,6 @@
 }
 
 
-/* Paragraph */
 .section2-text p {
     font-family: Arial, sans-serif;
     font-size: 24px;
@@ -180,9 +164,6 @@
    3rd Section
    ========================= */
 
-   /* =========================
-   SECTION 3
-   ========================= */
 
 .section3 {
     margin-top: -15vh;
@@ -193,9 +174,7 @@
 }
 
 
-/* =========================
-   LEFT SIDE — TEXT
-   ========================= */
+
 
 .section3-text {
     width: 50%;
@@ -228,9 +207,6 @@ font-family: 'Roboto', sans-serif;
     line-height: 1.4;
 }
 
-/* =========================
-   RIGHT SIDE — IMAGE
-   ========================= */
 
 .section3-image {
     width: 50%;
@@ -242,7 +218,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-/* Image */
+
 
 .section3-image img {
   position: absolute;
@@ -265,9 +241,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-/* =========================
-   RESPONSIVE
-   ========================= */
 
 /* =========================
    SECTION 4
@@ -283,9 +256,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-/* =========================
-   ROW 1 — TEXT
-   ========================= */
 
 .section4-row1 {
     width: 100%;
@@ -546,31 +516,3 @@ font-family: 'Roboto', sans-serif;
    RESPONSIVE
    ========================= */
 
-@media (max-width: 768px) {
-
-    .section5 {
-        height: auto;
-        flex-direction: column;
-    }
-
-    .section5-column1,
-    .section5-column2 {
-        width: 100%;
-    }
-
-    .section5-column1 {
-        height: 50vh;
-    }
-
-    .section5-column2 {
-        height: auto;
-    }
-
-    .section5-top-image {
-        height: 40vh;
-    }
-
-    .section5-text {
-        min-height: 25vh;
-    }
-}
