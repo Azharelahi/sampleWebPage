@@ -326,6 +326,7 @@ body {
     height: 30%;
 
     display: flex;
+    gap:25px
 }
 
 
@@ -365,7 +366,6 @@ body {
     height: 100%;
 
     object-fit: contain;
-    display: block;
 }
 
 
